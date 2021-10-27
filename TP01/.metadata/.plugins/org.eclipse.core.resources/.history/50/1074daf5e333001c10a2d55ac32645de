@@ -1,0 +1,12 @@
+
+public class ex02 {
+
+	public static void main(String[] args) {
+		System.out.println("Line break.\n");
+		System.out.println("Erase one character.\b");
+		System.out.println("Tabulation.\t");
+		
+
+	}
+
+}

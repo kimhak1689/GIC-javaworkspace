@@ -1,0 +1,39 @@
+
+public class ex03{
+
+	public static void main (String[] args){
+		// Exercise A.
+		System.out.println("*************************");
+		System.out.println("*                       *");
+		System.out.println("*                       *");
+		System.out.println("*                       *");
+		System.out.println("*                       *");
+		System.out.println("*************************");
+		// Exercise B.
+		System.out.println("    *    ");
+		System.out.println("   ***   ");
+		System.out.println("  *****  ");
+		System.out.println(" ******* ");
+		System.out.println("*********");
+		// Exercise C.
+		System.out.println("*");
+		System.out.println("***");
+		System.out.println("*****");
+		System.out.println("*******");
+		System.out.println("*********");
+		// Exercise D.
+		System.out.println("        *");
+		System.out.println("      ***");
+		System.out.println("    *****");
+		System.out.println("  *******");
+		System.out.println("*********");
+		// Exercise E.
+		System.out.println(" 	*");
+		System.out.println("  ***");
+		System.out.println("*****");
+		System.out.println("  ***");
+		System.out.println("	*");
+	}
+	
+	
+}

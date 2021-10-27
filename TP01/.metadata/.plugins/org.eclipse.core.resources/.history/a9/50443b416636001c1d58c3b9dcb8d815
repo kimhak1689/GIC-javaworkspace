@@ -1,0 +1,63 @@
+
+public class ex03{
+
+	public static void main (String[] args){
+		
+		int n = 6;
+		int m = 25;
+		int l = 9;
+		// Exercise A.
+		exerciseA(n,m);
+		// Exercise B.
+		
+		// Exercise C.
+		exerciseC(l);
+	}
+	// Exercise A.
+	public static void exerciseA(int n, int m) {
+        for (int i = 1; i <= n; i++){
+            for (int j = 1; j <= m; j++){
+                if (i == 1 || i == n ||
+                    j == 1 || j == m) 
+                	// printing stars
+                    System.out.print("*"); 
+             // ending line after each row
+                else
+                    System.out.print(" ");           
+            }
+            System.out.println();
+        }
+        System.out.print("\n");
+    }
+	// Exercise B.
+	
+	// Exercise C.
+	public static void exerciseC(int l) {
+		for(int i = 0; i < l; i = i+2){
+            for(int j = 0; j <= i; j++)
+            {
+                // printing stars
+                System.out.print("*");
+            }
+            // ending line after each row
+            System.out.println();
+        }
+	}
+	// Exercise D.
+	public static void exerciseD(int p) {
+	        for(int i = 0; i < p; i++){
+	            for(int j = 2*(p-i); j >= 0; j--){
+	                // printing space
+	                System.out.print(" ");
+	            }
+	            for(int j = 0; j <= i; j++){
+	                // printing stars
+	                System.out.print("* ");
+	            }   
+	            // ending line after each row
+	            System.out.println();
+	        }
+	    }
+	}
+	
+}

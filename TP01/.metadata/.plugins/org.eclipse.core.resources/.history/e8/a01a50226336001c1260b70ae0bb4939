@@ -1,0 +1,29 @@
+
+public class ex03{
+
+	public static void main (String[] args){
+		
+		// Exercise A.	
+        
+        
+        public static void exerciseA(int n, int m) {
+        	
+        }
+        	int i, j;
+            for (i = 1; i <= n; i++)
+            {
+                for (j = 1; j <= m; j++)
+                {
+                    if (i == 1 || i == n ||
+                        j == 1 || j == m)           
+                        System.out.print("*");           
+                    else
+                        System.out.print(" ");           
+                }
+                System.out.println();
+            }
+        
+
+          
+	}
+}

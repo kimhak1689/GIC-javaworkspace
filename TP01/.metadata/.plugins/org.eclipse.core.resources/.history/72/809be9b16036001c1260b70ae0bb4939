@@ -1,0 +1,16 @@
+
+public class ex03{
+
+	public static void main (String[] args){
+		// A. 
+		
+        
+        for(int h = 0; h < 5; h++) { 
+            for(int w = 0; w < 6; w++) 
+            { 
+                System.out.print("*"); 
+            } 
+            System.out.println(" "); 
+        } 
+	}
+}
